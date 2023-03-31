@@ -78,8 +78,7 @@ body {
 .address {
   font-style: normal;
 }
-.mail-address,
-.tel-address {
+.contact-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -90,10 +89,8 @@ body {
 
   color: var(--slate);
 }
-.mail-address:hover,
-.mail-address:focus,
-.tel-address:hover,
-.tel-address:focus {
+.contact-address:hover,
+.contact-address:focus {
   color: var(--ocean);
 }
 
@@ -232,4 +229,5 @@ body {
 
 .service-text {
   line-height: 1.5;
+  color: var(--slate);
 }
